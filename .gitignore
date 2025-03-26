@@ -1,0 +1,62 @@
+# Byte-compiled / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.venv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Dataset and large files
+data/
+*.csv
+*.json
+*.tsv
+*.parquet
+*.h5
+*.hdf5
+*.db
+*.sqlite
+*.pkl
+*.joblib
+
+# Machine learning model files
+*.ckpt
+*.pth
+*.pt
+*.tflite
+*.h5
+*.onnx
+*.pb
+*.sav
+*.pickle
+
+# TensorBoard logs
+logs/
+tb_logs/
+
+# Weights & Biases cache
+wandb/
+wandb-debug.log
+wandb-config.json
+
+# MLflow logs and artifacts
+mlruns/
+mlflow.log
+
+# Cache directories
+.cache/
+__pycache__/
+*.log
+*.out
+*.err
+
+# IDE and OS-specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
